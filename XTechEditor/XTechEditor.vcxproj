@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\box\libpng-1.6.17\png.h" />
+    <ClInclude Include="..\..\..\..\..\box\libpng-1.6.17\pngconf.h" />
+    <ClInclude Include="..\..\..\..\..\box\libpng-1.6.17\pngdebug.h" />
+    <ClInclude Include="..\..\..\..\..\box\libpng-1.6.17\pnginfo.h" />
+    <ClInclude Include="..\..\..\..\..\box\libpng-1.6.17\pnglibconf.h" />
+    <ClInclude Include="..\..\..\..\..\box\libpng-1.6.17\pngpriv.h" />
+    <ClInclude Include="..\..\..\..\..\box\libpng-1.6.17\pngstruct.h" />
+    <ClInclude Include="GraphicDefines.h" />
+    <ClInclude Include="GraphicEngineController.h" />
+    <ClInclude Include="GUI.h" />
+    <ClInclude Include="GUIEventInterface.h" />
+    <ClInclude Include="GUIInterface.h" />
+    <ClInclude Include="HistoryEvents.h" />
+    <ClInclude Include="Manipulator.h" />
+    <ClInclude Include="ManipulatorInterface.h" />
+    <ClInclude Include="MathDeleted.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ToolBarBase.h" />
+    <ClInclude Include="ToolBarCamera.h" />
+    <ClInclude Include="ToolBarLight.h" />
+    <ClInclude Include="ToolBarMain.h" />
+    <ClInclude Include="ToolBarMainTop.h" />
+    <ClInclude Include="ToolBarMesh.h" />
+    <ClInclude Include="ToolBarParticles.h" />
+    <ClInclude Include="ToolBarsEventInterface.h" />
+    <ClInclude Include="UIWin32.h" />
+    <ClInclude Include="UltraSystem.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\BaseLight.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\BaseRenderObject.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\BVH.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\Camera.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\CompressedTextureFormats.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\DynamicEntity.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\FileLoader.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\FlagsForShaderCompile.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\forsyth.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\FrameBuffer.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\iOSLoadResource.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\Light.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\Material.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\mathLib.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\Mesh.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\MeshCache.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\Object.hpp" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\ParticleEmiter.hpp" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\ParticleSystem.hpp" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\pugiconfig.hpp" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\pugixml.hpp" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\PVRLoader.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\RenderDefines.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\Renderer.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\resource.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\ResourceManager.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\Scene.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\SceneChildsController.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\SceneGraph.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\SceneNode.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\ShaderCache.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\ShaderLib.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\ShaderParamsSetter.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\ShaderUtils.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\SkinnedMesh.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\SkinningMath.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\Snippets.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\SoundSystem.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\Texture.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\TextureCache.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\TGAImage.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\Types.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\Vectors.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\XAnimation.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\XAnimations.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\XAnimTypes.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\XBoundingBox.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\XCache.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\XDebugLoger.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\XFrustum.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\XGeometry.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\XGlobals.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\XMathBase.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\XMathTypes.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\XMatrix3Math.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\XMatrix4Math.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\XObject.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\XObject.hpp" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\XRendererDefines.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\XRenderTypes.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\XSingleton.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\XTECH-C-Interface.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\XTechEngine.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\XTypes.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\XUDID.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\XVector3Math.h" />
+    <ClInclude Include="\\mac\code\UltraVision_2\UltraVision\engine\XVector4Math.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\box\libpng-1.6.17\example.c" />
+    <ClCompile Include="..\..\..\..\..\box\libpng-1.6.17\png.c" />
+    <ClCompile Include="..\..\..\..\..\box\libpng-1.6.17\pngerror.c" />
+    <ClCompile Include="..\..\..\..\..\box\libpng-1.6.17\pngget.c" />
+    <ClCompile Include="..\..\..\..\..\box\libpng-1.6.17\pngmem.c" />
+    <ClCompile Include="..\..\..\..\..\box\libpng-1.6.17\pngpread.c" />
+    <ClCompile Include="..\..\..\..\..\box\libpng-1.6.17\pngread.c" />
+    <ClCompile Include="..\..\..\..\..\box\libpng-1.6.17\pngrio.c" />
+    <ClCompile Include="..\..\..\..\..\box\libpng-1.6.17\pngrtran.c" />
+    <ClCompile Include="..\..\..\..\..\box\libpng-1.6.17\pngrutil.c" />
+    <ClCompile Include="..\..\..\..\..\box\libpng-1.6.17\pngset.c" />
+    <ClCompile Include="..\..\..\..\..\box\libpng-1.6.17\pngtrans.c" />
+    <ClCompile Include="..\..\..\..\..\box\libpng-1.6.17\pngwio.c" />
+    <ClCompile Include="..\..\..\..\..\box\libpng-1.6.17\pngwrite.c" />
+    <ClCompile Include="..\..\..\..\..\box\libpng-1.6.17\pngwtran.c" />
+    <ClCompile Include="..\..\..\..\..\box\libpng-1.6.17\pngwutil.c" />
+    <ClCompile Include="GraphicEngineController.cpp" />
+    <ClCompile Include="GUI.cpp" />
+    <ClCompile Include="GUIEventInterface.cpp" />
+    <ClCompile Include="GUIInterface.cpp" />
+    <ClCompile Include="HistoryEvents.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Manipulator.cpp" />
+    <ClCompile Include="ManipulatorInterface.cpp" />
+    <ClCompile Include="MathDeleted.cpp" />
+    <ClCompile Include="ToolBarBase.cpp" />
+    <ClCompile Include="ToolBarCamera.cpp" />
+    <ClCompile Include="ToolBarLight.cpp" />
+    <ClCompile Include="ToolBarMain.cpp" />
+    <ClCompile Include="ToolBarMainTop.cpp" />
+    <ClCompile Include="ToolBarMesh.cpp" />
+    <ClCompile Include="ToolBarParticles.cpp" />
+    <ClCompile Include="ToolBarsEventInterface.cpp" />
+    <ClCompile Include="UIWin32.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\BaseLight.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\BaseRenderObject.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\BVH.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\Camera.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\DynamicEntity.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\FileLoader.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\forsyth.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\FrameBuffer.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\Light.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\Material.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\mathLib.c" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\Mesh.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\MeshCache.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\Object.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\ParticleEmiter.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\ParticleSystem.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\pugixml.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\PVRLoader.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\Renderer.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\ResourceManager.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\Scene.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\SceneChildsController.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\SceneGraph.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\SceneNode.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\ShaderCache.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\ShaderLib.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\ShaderParamsSetter.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\ShaderUtils.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\SkinnedMesh.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\SkinningMath.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\SoundSystem.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\Texture.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\TextureCache.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\TGAImage.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\XAnimation.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\XAnimations.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\XBoundingBox.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\XCache.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\XDebugLoger.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\XFrustum.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\XGeometry.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\XMathBase.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\XMathTypes.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\XObject.cpp" />
+    <ClCompile Include="\\mac\code\UltraVision_2\UltraVision\engine\XTypes.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="toolbar1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="XTechEditor.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="\\mac\code\UltraVision_2\UltraVision\engine\Info.plist" />
+    <None Include="\\mac\code\UltraVision_2\UltraVision\engine\iOSLoadResource.mm" />
+    <None Include="\\mac\code\UltraVision_2\UltraVision\engine\XTechEngine.m" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6D444272-9E15-4A1C-9181-095A614A4411}</ProjectGuid>
+    <RootNamespace>XTechEditor</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <SourcePath>Z:\code\XTechEngine\XTechEngine;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <SourcePath>Z:\code\XTechEngine\XTechEngine;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <SourcePath>Z:\code\XTechEngine\XTechEngine;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <SourcePath>Z:\code\XTechEngine\XTechEngine;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\box\libpng-1.6.17;C:\box\freeglut-2.8.1\include;C:\box\zlib128-dll\include;\\Mac\code\UltraVision_2\UltraVision\engine;C:\box\OpenAL 1.1 SDK\include;C:\box\glew-1.11.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ShowIncludes>false</ShowIncludes>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\box\freeglut-2.8.1\lib\x86;C:\box\zlib128-dll\lib;C:\box\OpenAL 1.1 SDK\libs\Win32;C:\box\glew-1.11.0\lib\Release\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>freeglut.lib;zdll.lib;glew32.lib;OpenAL32.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\box\libpng-1.6.17;C:\box\freeglut-2.8.1\include;C:\box\zlib128-dll\include;\\vmware-host\Shared Folders\code\UltraVision_2\UltraVision\engine;C:\box\OpenAL 1.1 SDK\include;C:\box\glew-1.11.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\box\freeglut-2.8.1\lib\x86;C:\box\zlib128-dll\lib;C:\box\OpenAL 1.1 SDK\libs\Win32;C:\box\glew-1.11.0\lib\Release\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>freeglut.lib;zdll.lib;glew32.lib;OpenAL32.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>C:\box\libpng-1.6.17;C:\box\freeglut-2.8.1\include;C:\box\zlib128-dll\include;\\Mac\code\UltraVision_2\UltraVision\engine;C:\box\OpenAL 1.1 SDK\include;C:\box\glew-1.11.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <OptimizeReferences>
+      </OptimizeReferences>
+      <AdditionalDependencies>freeglut.lib;zdll.lib;glew32.lib;OpenAL32.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\box\freeglut-2.8.1\lib\x86;C:\box\zlib128-dll\lib;C:\box\OpenAL 1.1 SDK\libs\Win32;C:\box\glew-1.11.0\lib\Release\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+      <LinkTimeCodeGeneration />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>Z:\code\XTechSceneController;Z:\code\XTechEngine\XTechEngine;C:\box\openCV\opencv\build\include;C:\Program Files %28x86%29\OpenAL 1.1 SDK\include;C:\box\glew-1.11.0\include;C:\box\freeglut-2.8.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glew32.lib;freeglut.lib;OpenAL32.lib;opencv_core2410.lib;opencv_imgproc2410.lib;opencv_highgui2410.lib;opencv_ml2410.lib;opencv_video2410.lib;opencv_features2d2410.lib;opencv_calib3d2410.lib;opencv_objdetect2410.lib;opencv_contrib2410.lib;opencv_legacy2410.lib;opencv_flann2410.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\box\openCV\opencv\build\x86\vc11\lib;C:\Program Files %28x86%29\OpenAL 1.1 SDK\libs\Win32;C:\box\glew-1.11.0\lib\Release\Win32;C:\box\freeglut-2.8.1\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="XTechEditor.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
